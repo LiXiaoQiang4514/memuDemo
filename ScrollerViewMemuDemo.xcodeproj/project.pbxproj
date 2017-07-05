@@ -15,6 +15,7 @@
 		C47E2CA01F0CBC0D0043D7F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E2C9E1F0CBC0D0043D7F3 /* LaunchScreen.storyboard */; };
 		C47E2CAB1F0CBC0D0043D7F3 /* ScrollerViewMemuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CAA1F0CBC0D0043D7F3 /* ScrollerViewMemuDemoTests.m */; };
 		C47E2CB61F0CBC0D0043D7F3 /* ScrollerViewMemuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CB51F0CBC0D0043D7F3 /* ScrollerViewMemuDemoUITests.m */; };
+		C47E2CC61F0CBC370043D7F3 /* LXQScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CC51F0CBC370043D7F3 /* LXQScrollerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C47E2CB11F0CBC0D0043D7F3 /* ScrollerViewMemuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollerViewMemuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47E2CB51F0CBC0D0043D7F3 /* ScrollerViewMemuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollerViewMemuDemoUITests.m; sourceTree = "<group>"; };
 		C47E2CB71F0CBC0D0043D7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47E2CC41F0CBC370043D7F3 /* LXQScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQScrollerView.h; sourceTree = "<group>"; };
+		C47E2CC51F0CBC370043D7F3 /* LXQScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXQScrollerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C47E2C8F1F0CBC0D0043D7F3 /* ScrollerViewMemuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C47E2CC31F0CBC370043D7F3 /* LXQScrollerView */,
 				C47E2C931F0CBC0D0043D7F3 /* AppDelegate.h */,
 				C47E2C941F0CBC0D0043D7F3 /* AppDelegate.m */,
 				C47E2C961F0CBC0D0043D7F3 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				C47E2CB71F0CBC0D0043D7F3 /* Info.plist */,
 			);
 			path = ScrollerViewMemuDemoUITests;
+			sourceTree = "<group>";
+		};
+		C47E2CC31F0CBC370043D7F3 /* LXQScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				C47E2CC41F0CBC370043D7F3 /* LXQScrollerView.h */,
+				C47E2CC51F0CBC370043D7F3 /* LXQScrollerView.m */,
+			);
+			path = LXQScrollerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				C47E2C981F0CBC0D0043D7F3 /* ViewController.m in Sources */,
 				C47E2C951F0CBC0D0043D7F3 /* AppDelegate.m in Sources */,
+				C47E2CC61F0CBC370043D7F3 /* LXQScrollerView.m in Sources */,
 				C47E2C921F0CBC0D0043D7F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
