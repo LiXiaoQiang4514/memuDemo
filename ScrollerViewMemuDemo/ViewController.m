@@ -29,8 +29,6 @@
     [self.view addSubview:self.scrollerView];
 }
 
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
